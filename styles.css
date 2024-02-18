@@ -33,7 +33,16 @@ body {
 .eyes {
   position: absolute;
   top: calc(var(--emoji-width-hight) * 0.25);
-  left: calc(var(--emoji-width-hight) * 0.25);
+  left: calc(var(--emoji-width-hight) * 0.5);
+  transform: translateX(-calc(var(--emoji-width-hight) * 0.075 * 0.5));
+}
+
+.eye {
+  position: absolute;
+  width: calc(var(--emoji-width-hight) * 0.075);
+  height: calc(var(--emoji-width-hight) * 0.15);
+  background-color: black;
+  border-radius: 50%;
 }
 
 .eye-left {
