@@ -93,6 +93,11 @@ body {
 }
 
 .strap {
+  position: absolute;
+  background-color: white;
+  border: calc(var(--emoji-size) * 0.02) solid #999;
+  width: calc(var(--emoji-size) * 0.5);
+  height: calc(var(--emoji-size) * 0.1);
 }
 
 .strap-top-left {
