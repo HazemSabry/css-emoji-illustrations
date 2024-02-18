@@ -9,4 +9,25 @@
 body {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: space-around;
+}
+
+.emoji {
+}
+
+.head {
+}
+
+.eyes {
+}
+
+.eye-left {
+}
+
+.eye-right {
+}
+
+.mouth {
 }
