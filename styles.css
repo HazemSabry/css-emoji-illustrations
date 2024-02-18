@@ -110,18 +110,18 @@ body {
 
 .strap-top-right {
   transform: rotate(-20deg);
-  top: calc(var(--emoji-size) * -0.05);
-  right: calc(var(--emoji-size) * -0.4);
+  top: calc(var(--emoji-width-hight) * -0.05);
+  right: calc(var(--emoji-width-hight) * -0.4);
 }
 
 .strap-bottom-left {
   transform: rotate(-30deg);
-  bottom: calc(var(--emoji-size) * -0.06);
-  left: calc(var(--emoji-size) * -0.4);
+  bottom: calc(var(--emoji-width-hight) * -0.06);
+  left: calc(var(--emoji-width-hight) * -0.4);
 }
 
 .strap-bottom-right {
   transform: rotate(30deg);
-  bottom: calc(var(--emoji-size) * -0.06);
-  right: calc(var(--emoji-size) * -0.4);
+  bottom: calc(var(--emoji-width-hight) * -0.06);
+  right: calc(var(--emoji-width-hight) * -0.4);
 }
