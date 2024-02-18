@@ -46,6 +46,7 @@ body {
 }
 
 .eye-left {
+  left: calc(var(--emoji-width-hight) * -0.2);
 }
 
 .eye-right {
