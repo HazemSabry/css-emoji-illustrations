@@ -61,4 +61,12 @@ body {
 }
 
 .smile-mouth {
+  --mouth-width: calc(var(--emoji-width-hight) * 0.6);
+  --mouth-height: calc(var(--emoji-width-hight) * 0.3);
+  width: var(--mouth-width);
+  height: var(--mouth-height);
+  background-color: black;
+  transform: translateX(calc(var(--mouth-width) * -0.5));
+
+  border-radius: 5% 5% var(--mouth-height) var(--mouth-height);
 }
