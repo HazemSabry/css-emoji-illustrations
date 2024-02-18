@@ -109,6 +109,9 @@ body {
 }
 
 .strap-top-right {
+  transform: rotate(-20deg);
+  top: calc(var(--emoji-size) * -0.05);
+  right: calc(var(--emoji-size) * -0.4);
 }
 
 .strap-bottom-left {
