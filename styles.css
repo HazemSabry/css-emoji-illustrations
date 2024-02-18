@@ -115,6 +115,9 @@ body {
 }
 
 .strap-bottom-left {
+  transform: rotate(-30deg);
+  bottom: calc(var(--emoji-size) * -0.06);
+  left: calc(var(--emoji-size) * -0.4);
 }
 
 .strap-bottom-right {
