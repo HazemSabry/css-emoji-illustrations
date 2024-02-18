@@ -29,6 +29,7 @@ body {
   border-radius: 100%;
   overflow: hidden;
   position: relative;
+  z-index: -1;
 }
 
 .eyes {
@@ -95,12 +96,16 @@ body {
 .strap {
   position: absolute;
   background-color: white;
-  border: calc(var(--emoji-size) * 0.02) solid #999;
-  width: calc(var(--emoji-size) * 0.5);
-  height: calc(var(--emoji-size) * 0.1);
+  border: calc(var(--emoji-width-hight) * 0.02) solid #999;
+  width: calc(var(--emoji-width-hight) * 0.5);
+  height: calc(var(--emoji-width-hight) * 0.1);
+  z-index: -2;
 }
 
 .strap-top-left {
+  transform: rotate(20deg);
+  top: calc(var(--emoji-width-hight) * -0.05);
+  left: calc(var(--emoji-width-hight) * -0.4);
 }
 
 .strap-top-right {
