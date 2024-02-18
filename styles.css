@@ -81,3 +81,28 @@ body {
 
   border-radius: 50%;
 }
+
+.mask-mouth {
+  left: calc(var(--emoji-width-hight) * 0.2);
+  transform: none;
+  width: calc(var(--emoji-width-hight) * 0.6);
+  height: calc(var(--emoji-width-hight) * 0.35);
+  border-radius: 10%;
+  background-color: white;
+  border: calc(var(--emoji-width-hight) * 0.02) solid #999;
+}
+
+.strap {
+}
+
+.strap-top-left {
+}
+
+.strap-top-right {
+}
+
+.strap-bottom-left {
+}
+
+.strap-bottom-right {
+}
