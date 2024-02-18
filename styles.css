@@ -12,13 +12,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  justify-items: space-around;
   min-height: 100vh;
+  width: 100vw;
 }
 
 .emoji {
   width: var(--emoji-width-hight);
   height: var(--emoji-width-hight);
+  margin: 0.5rem;
 }
 
 .head {
@@ -54,4 +55,10 @@ body {
 }
 
 .mouth {
+  position: absolute;
+  bottom: calc(var(--emoji-width-hight) * 0.125);
+  left: calc(var(--emoji-width-hight) * 0.5);
+}
+
+.smile-mouth {
 }
