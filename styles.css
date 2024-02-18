@@ -1,4 +1,5 @@
 :root {
+  --emoji-width-hight: 5rem;
 }
 
 * {
@@ -12,9 +13,12 @@ body {
   justify-content: center;
   align-items: center;
   justify-items: space-around;
+  min-height: 100vh;
 }
 
 .emoji {
+  width: var(--emoji-width-hight);
+  height: var(--emoji-width-hight);
 }
 
 .head {
