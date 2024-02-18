@@ -70,3 +70,14 @@ body {
 
   border-radius: 5% 5% var(--mouth-height) var(--mouth-height);
 }
+
+.wow-mouth {
+  --mouth-width: calc(var(--emoji-width-hight) * 0.2);
+  --mouth-height: calc(var(--emoji-width-hight) * 0.3);
+  width: var(--mouth-width);
+  height: var(--mouth-height);
+  background-color: black;
+  transform: translateX(calc(var(--mouth-width) * -0.5));
+
+  border-radius: 50%;
+}
