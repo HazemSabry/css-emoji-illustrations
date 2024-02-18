@@ -50,6 +50,7 @@ body {
 }
 
 .eye-right {
+  right: calc(var(--emoji-width-hight) * -0.2);
 }
 
 .mouth {
